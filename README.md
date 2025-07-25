@@ -12,7 +12,7 @@
    - The popup can be closed by clicking anywhere on the overlay or pressing Escape.
    - This feature is also accessible and works with keyboard navigation.
 
-# Expected Behaviour:
+# Expected Behavior:
 - Both features work on all pages.
 - All interactive elements are keyboard accessible and have visible focus.
 - The site remains usable and accessible with or without JavaScript
