@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DormChef | Recipes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <nav>
+  <a href="index.html" class="logo">DormChef</a>
+  <ul class="navbar">
+    <li><a href="recipes.html">Recipes</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <div class="font-size-controls" aria-label="Font size controls">
+      <button id="font-decrease" aria-label="Decrease font size">A-</button>
+      <button id="font-increase" aria-label="Increase font size">A+</button>
+    </div>
+  </ul>
+</nav>
+  <main>
+    <h1>Recipes</h1>
+    <section class="highlight">
+      <h2>CHICKEN PARM <span class="subtitle">Recipe of the Week</span></h2>
+      <div class="highlight-content">
+        <img src="images/chickenparm.jpg" alt="Chicken Parmesan" class="about-photo enlargeable" tabindex="0">
+        <div>
+          <p>This week's featured recipe is a classic Chicken Parm that's easy to make in any dorm kitchen.</p>
+          <div class="ingredients-instructions">
+            <div>
+              <h3>Ingredients</h3>
+              <ul>
+                <li>Chicken breast</li>
+                <li>Marinara sauce</li>
+                <li>Mozzarella cheese</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Instructions</h3>
+              <ol>
+                <li>Cook chicken</li>
+                <li>Add sauce & cheese</li>
+                <li>Bake until golden</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#all-recipes" class="see-all-link">See all recipes ↓</a>
+    </section>
+    <section id="all-recipes" class="recipes-list">
+      <h2>Full menu</h2>
+      <div class="filters">
+        <button>Quick</button>
+        <button>Vegetarian</button>
+        <button>High Protein</button>
+      </div>
+      <div class="recipe-cards">
+        <div class="recipe-card">
+          <img src="images/burger.jpg" alt="Beef Burger" class="about-photo enlargeable" tabindex="0">
+          <p>Homemade Beef Burger</p>
+        </div>
+        <div class="recipe-card">
+          <img src="images/pancakes.jpg" alt="Pancakes with strawberry and caramel" class="about-photo enlargeable" tabindex="0">
+          <p>Strawberry Caramel Pancakes</p>
+        </div>
+        <div class="recipe-card">
+          <img src="images/steak.jpg" alt="Steak and vegetables" class="about-photo enlargeable" tabindex="0">
+          <p>T-Bone Steak and Pepper Sauce</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DormChef | Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <nav>
+  <a href="index.html" class="logo">DormChef</a>
+  <ul class="navbar">
+    <li><a href="recipes.html">Recipes</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <div class="font-size-controls" aria-label="Font size controls">
+      <button id="font-decrease" aria-label="Decrease font size">A-</button>
+      <button id="font-increase" aria-label="Increase font size">A+</button>
+    </div>
+  </ul>
+</nav>
+  <main class="contact">
+    <h1>Reach Out</h1>
+    <div class="contact-content">
+      <form>
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email" placeholder="your@email.com">
+        <label for="phone">Phone:</label>
+        <input id="phone" name="phone" type="tel" placeholder="000-000-0000">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="How can we help?"></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:info@dormchef.com">info@dormchef.com</a></p>
+        <p><strong>Location:</strong> <span>123 College Ave, Dormtown</span></p>
+        <p>We love to hear from students and partners! Reach out with questions, suggestions, or partnership ideas.</p>
+      </div>
+    </div>
+  </main>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
